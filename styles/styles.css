@@ -125,12 +125,39 @@
     height: 50px;
     border: none;
 }
+/* lover section */
+.lover-container{
+    display: flex;
+    gap: 60px;
+    margin-top: 200px;
+}
 
+.lover-title{
+    font-weight: bold;
+    font-size: 3.12rem;
+    /* margin-top: 30px; */
+    margin: 10px auto;
+}
+.lover-item{
+    max-width: 540px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.lover-img{
+    max-width: 540px;
+}
+.lover-description{
+    font-size: 1.37rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+    
 
 
   @media screen and (max-width:576px) {
     .nav-link{
         display: none;
+        
         }
     .banner{
         flex-direction: column-reverse;
@@ -138,6 +165,18 @@
     }
     .card-container{
         grid-template-columns: repeat(2, 1fr);
+        
+    }
+    .lover-container{
+        flex-direction: column;
+        margin: 20px auto;
+    }
+    .lover-img{
+        width: 100%;
+    }
+    .lover-item{
+        width: 100%;
+        margin: 10px auto;
         
     }
     
