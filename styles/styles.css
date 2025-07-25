@@ -172,28 +172,47 @@
     background-image: url(/image/news-letter-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 533px;
+    /* margin-top: 100px; */
     
+}
+.footer-container-one{
+    
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    border: 0;
+    background-color: rgba(7, 51, 79, 0.4);
+    height: 100%;
+    width: 100%;
+    z-index: 1;
     
 }
 .footer-input{
     width: 830px;
-    height: 50px;
+    height: 49px;
+    padding-left: 15px;
 }
 .btn-footer{
     background-color: #E95A08;
     font-size: 1rem;
     font-weight: 500;
-    height: 50px;
+    height: 52px;
     border: none;
     width: 180px;
+    
 }
 .footer-title{
     text-align: center;
     font-weight: bold;
-    font-size: 3.12rem;
-    margin-bottom: 200px;
+    font-size: 3rem;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 20px;
     color: white;
 }
 
@@ -202,6 +221,9 @@
     justify-content: center;
     margin-top: 0px;
     margin-bottom: 0px;
+     position: relative;
+    z-index: 2;
+    
 }
 
 .footer-icons{
@@ -232,8 +254,10 @@
   @media screen and (max-width:576px) {
     .nav-link{
         display: none;
-        
-        }
+    }
+
+     
+    
     .banner{
         flex-direction: column-reverse;
         gap: 10px;
@@ -255,5 +279,13 @@
         margin: 10px auto;
         
     }
-    
+    .footer-input{
+        width: calc(100% - 60px);
+       margin-left: 30px;
+        
+    }
+    .btn-footer{
+        margin-right: 30px;
+    }
+   
 }
