@@ -166,6 +166,74 @@
     max-width: 888px;
     margin: 0px auto;
 }
+/* shop section styles */
+.shop-container{
+    display: flex;
+    gap: 20px;
+    height: 432px;
+    margin: 120px auto;
+}
+.shop-item{
+    background-image: url(/image/deal-zabo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 75%;
+    /* border: 2px solid tan; */
+    text-align: center;
+    border-radius: 22px;
+}
+.shop-items{
+    width: 25%;
+    /* border: 3px solid tomato; */
+    }
+
+
+.shop-links-one{
+    background-image: url(/image/deal-bloom.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: rgba(0, 0, 0, 0.4; */
+    height: calc(50% - 10px);
+    border-radius: 14px;
+    text-align: center;
+    
+}
+
+.shop-links-two{
+    background-image: url(/image/deal-ana.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+    text-align: center;
+    border-radius: 14px;
+    height: calc(50% - 10px);
+    margin-top: 20px;
+}
+.shop-title{
+    padding-top: 0px;
+    margin: 0px;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.shop-titles{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 100px;
+}
+.shop-links{
+    color: white;
+    font-weight: 500;
+    font-size: 1.75rem;
+}
+.shop-link{
+    color: white;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
 /* footer styles */
 
 .footer-one{
