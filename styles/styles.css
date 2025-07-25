@@ -183,7 +183,7 @@
     
 }
 .shop-item{
-    background-image: url(/image/deal-zabo.png);
+    background-image: url("../image/deal-zabo.png");
     background-repeat: no-repeat;
     background-size: cover;
     width: 75%;
@@ -199,7 +199,7 @@
 
 
 .shop-links-one{
-    background-image: url(/image/deal-bloom.png);
+    background-image: url("../image/deal-bloom.png");
     background-repeat: no-repeat;
     background-size: cover;
     /* background-color: rgba(0, 0, 0, 0.4; */
@@ -211,7 +211,7 @@
 }
 
 .shop-links-two{
-    background-image: url(/image/deal-ana.png);
+    background-image: url("../image/deal-ana.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 50%;
@@ -250,7 +250,7 @@
 /* footer styles */
 
 .footer-one{
-    background-image: url(/image/news-letter-bg.png);
+    background-image: url("../image/news-letter-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
